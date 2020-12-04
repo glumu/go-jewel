@@ -1,6 +1,6 @@
 package resource
 
-import "github.com/go-jewel/archeros/uitls"
+import "github.com/glumu/go-jewel/archeros/uitls"
 
 // ou
 type ResourceClient struct {

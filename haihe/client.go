@@ -1,18 +1,18 @@
 package haihe
 
 import (
-	"github.com/go-jewel/haihe/autoscaling"
-	"github.com/go-jewel/haihe/configmanager"
-	"github.com/go-jewel/haihe/identity"
-	"github.com/go-jewel/haihe/lbaas"
-	"github.com/go-jewel/haihe/monitor"
-	"github.com/go-jewel/haihe/notification"
-	"github.com/go-jewel/haihe/orchestration"
-	"github.com/go-jewel/haihe/rds_trove"
-	"github.com/go-jewel/haihe/resource"
-	"github.com/go-jewel/haihe/storage"
-	"github.com/go-jewel/haihe/taskcube"
-	"github.com/go-jewel/haihe/uitls"
+	"github.com/glumu/go-jewel/haihe/autoscaling"
+	"github.com/glumu/go-jewel/haihe/configmanager"
+	"github.com/glumu/go-jewel/haihe/identity"
+	"github.com/glumu/go-jewel/haihe/lbaas"
+	"github.com/glumu/go-jewel/haihe/monitor"
+	"github.com/glumu/go-jewel/haihe/notification"
+	"github.com/glumu/go-jewel/haihe/orchestration"
+	"github.com/glumu/go-jewel/haihe/rds_trove"
+	"github.com/glumu/go-jewel/haihe/resource"
+	"github.com/glumu/go-jewel/haihe/storage"
+	"github.com/glumu/go-jewel/haihe/taskcube"
+	"github.com/glumu/go-jewel/haihe/uitls"
 )
 
 func NewClient(server string, endpoint string, isMock bool, sourceService string, logCB func(logger utils.Logger)) interface{} {

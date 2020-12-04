@@ -1,6 +1,6 @@
 package rds_trove
 
-import "github.com/go-jewel/haihe/uitls"
+import "github.com/glumu/go-jewel/haihe/uitls"
 
 type RdsTroveClient struct {
 	utils.BaseClient

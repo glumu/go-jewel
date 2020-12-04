@@ -1,8 +1,8 @@
 package archeros
 
 import (
-	"github.com/go-jewel/archeros/resource"
-	"github.com/go-jewel/archeros/uitls"
+	"github.com/glumu/go-jewel/archeros/resource"
+	"github.com/glumu/go-jewel/archeros/uitls"
 )
 
 func NewClient(server string, endpoint string, isMock bool, sourceService string, logCB func(logger utils.Logger)) interface{} {

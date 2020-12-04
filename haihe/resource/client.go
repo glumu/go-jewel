@@ -1,6 +1,6 @@
 package resource
 
-import "github.com/go-jewel/haihe/uitls"
+import "github.com/glumu/go-jewel/haihe/uitls"
 
 // ou
 type ResourceClient struct {

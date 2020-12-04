@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/go-jewel/cloudsuite/resource/request"
-	"github.com/go-jewel/cloudsuite/resource/response"
+	"github.com/glumu/go-jewel/cloudsuite/resource/request"
+	"github.com/glumu/go-jewel/cloudsuite/resource/response"
 )
 
 func (c *ResourceClient) CreateDisk(request CreateDiksRequest, requestId string, timeout time.Duration) (*CreateDiskResponse, error) {

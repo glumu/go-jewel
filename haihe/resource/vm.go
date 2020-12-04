@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/go-jewel/haihe/uitls"
+	"github.com/glumu/go-jewel/haihe/uitls"
 )
 
 func (c *ResourceClient) ListVM(request ListVMRequest, requestId string, timeout time.Duration) (*ListVMResponse, error) {

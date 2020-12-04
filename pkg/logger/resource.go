@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-jewel/haihe/uitls"
+	"github.com/glumu/go-jewel/haihe/uitls"
 
-	"github.com/go-jewel/haihe/identity"
+	"github.com/glumu/go-jewel/haihe/identity"
 
 	"github.com/lestrrat-go/file-rotatelogs"
 	"github.com/sirupsen/logrus"

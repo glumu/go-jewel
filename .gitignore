@@ -1,0 +1,10 @@
+.idea/
+log/
+dist/
+rpmbuild/
+.DS_Store
+local*.yaml
+
+.vscode/launch.json
+.vscode/developer.yaml
+*.bak

@@ -1,6 +1,6 @@
 package composer
 
-import "github.com/go-jewel/pkg/request"
+import "github.com/glumu/go-jewel/pkg/request"
 
 type Client struct {
 	request.BaseClient

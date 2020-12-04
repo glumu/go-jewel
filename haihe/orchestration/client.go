@@ -1,6 +1,6 @@
 package orchestration
 
-import "github.com/go-jewel/haihe/uitls"
+import "github.com/glumu/go-jewel/haihe/uitls"
 
 type OrchestrationClient struct {
 	utils.BaseClient

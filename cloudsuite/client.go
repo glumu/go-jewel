@@ -1,14 +1,14 @@
 package cloudsuite
 
 import (
-	"github.com/go-jewel/cloudsuite/v1.2/composer"
-	"github.com/go-jewel/cloudsuite/v1.2/identity"
-	"github.com/go-jewel/cloudsuite/v1.2/platform"
-	composer13 "github.com/go-jewel/cloudsuite/v1.3/composer"
-	identity13 "github.com/go-jewel/cloudsuite/v1.3/identity"
-	platform13 "github.com/go-jewel/cloudsuite/v1.3/platform"
-	"github.com/go-jewel/cloudsuite/v1.3/resource_scheduler"
-	"github.com/go-jewel/pkg/request"
+	"github.com/glumu/go-jewel/cloudsuite/v1.2/composer"
+	"github.com/glumu/go-jewel/cloudsuite/v1.2/identity"
+	"github.com/glumu/go-jewel/cloudsuite/v1.2/platform"
+	composer13 "github.com/glumu/go-jewel/cloudsuite/v1.3/composer"
+	identity13 "github.com/glumu/go-jewel/cloudsuite/v1.3/identity"
+	platform13 "github.com/glumu/go-jewel/cloudsuite/v1.3/platform"
+	"github.com/glumu/go-jewel/cloudsuite/v1.3/resource_scheduler"
+	"github.com/glumu/go-jewel/pkg/request"
 )
 
 type Service interface {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-jewel/haihe/uitls"
+	"github.com/glumu/go-jewel/haihe/uitls"
 )
 
 func (c *ResourceClient) CreateInterface(request CreateInterfaceRequest, requestId string, timeout time.Duration) (*CreateInterfaceResponse, error) {

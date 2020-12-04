@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-jewel/haihe/uitls"
+	"github.com/glumu/go-jewel/haihe/uitls"
 )
 
 func (c *ResourceClient) GetSubnet(request GetSubnetRequest, requestId string, timeout time.Duration) (*GetSubnetResponse, error) {
